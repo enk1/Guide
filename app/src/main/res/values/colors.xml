@@ -7,4 +7,5 @@
     <color name="colorSport">#0e74af</color>
     <color name="colorCenter">#4f27ac</color>
     <color name="colorMuseums">#075c81</color>
+    <color name="colorListItem">#384074</color>
 </resources>
