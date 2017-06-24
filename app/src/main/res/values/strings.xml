@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pruszków Tour Guide</string>
+    <string name="category_food">Food</string>
+    <string name="category_monuments">Monuments</string>
+    <string name="category_sport">Sport</string>
+    <string name="category_museums">Museums</string>
+</resources>

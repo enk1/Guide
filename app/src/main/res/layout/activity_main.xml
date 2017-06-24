@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gmail.grzywaczewskijakub.tourguide.guide.MainActivity">
+
+    <TextView
+        android:id="@+id/monuments"
+        style="@style/CategoryStyle"
+        android:background="@color/colorCenter"
+        android:text="@string/category_monuments" />
+    <TextView
+        android:id="@+id/food"
+        style="@style/CategoryStyle"
+        android:background="@color/colorFood"
+        android:text="@string/category_food" />
+    <TextView
+        android:id="@+id/sport"
+        style="@style/CategoryStyle"
+        android:background="@color/colorSport"
+        android:text="@string/category_sport" />
+    <TextView
+        android:id="@+id/museums"
+        style="@style/CategoryStyle"
+        android:background="@color/colorMuseums"
+        android:text="@string/category_museums" />
+
+</LinearLayout>
