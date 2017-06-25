@@ -3,9 +3,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
     <color name="colorFood">#435789</color>
     <color name="colorSport">#0e74af</color>
-    <color name="colorCenter">#4f27ac</color>
+    <color name="colorMonuments">#4f27ac</color>
     <color name="colorMuseums">#075c81</color>
+
     <color name="colorListItem">#384074</color>
 </resources>
