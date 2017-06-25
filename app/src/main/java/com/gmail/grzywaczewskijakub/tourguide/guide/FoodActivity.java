@@ -8,7 +8,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class Food extends AppCompatActivity {
+public class FoodActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

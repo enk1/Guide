@@ -8,7 +8,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class Museums extends AppCompatActivity {
+public class MuseumsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -4,6 +4,6 @@
     android:layout_width="match_parent"
     android:id="@+id/sport_list"
     android:layout_height="match_parent"
-    tools:context="com.gmail.grzywaczewskijakub.tourguide.guide.Sport">
+    tools:context="com.gmail.grzywaczewskijakub.tourguide.guide.SportActivity">
 
 </ListView>

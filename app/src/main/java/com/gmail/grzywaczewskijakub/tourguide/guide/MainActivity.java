@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         food.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent foodIntent = new Intent(MainActivity.this, Food.class);
+                Intent foodIntent = new Intent(MainActivity.this, FoodActivity.class);
                 startActivity(foodIntent);
             }
         });
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         monuments.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent foodIntent = new Intent(MainActivity.this, Monuments.class);
+                Intent foodIntent = new Intent(MainActivity.this, MonumentsActivity.class);
                 startActivity(foodIntent);
             }
         });
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         museums.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent foodIntent = new Intent(MainActivity.this, Museums.class);
+                Intent foodIntent = new Intent(MainActivity.this, MuseumsActivity.class);
                 startActivity(foodIntent);
             }
         });
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         sport.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent foodIntent = new Intent(MainActivity.this, Sport.class);
+                Intent foodIntent = new Intent(MainActivity.this, SportActivity.class);
                 startActivity(foodIntent);
             }
         });

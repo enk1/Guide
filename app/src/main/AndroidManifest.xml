@@ -17,16 +17,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Monuments"
+            android:name=".MonumentsActivity"
             android:label="@string/category_monuments" />
         <activity
-            android:name=".Food"
+            android:name=".FoodActivity"
             android:label="@string/category_food" />
         <activity
-            android:name=".Sport"
+            android:name=".SportActivity"
             android:label="@string/category_sport" />
         <activity
-            android:name=".Museums"
+            android:name=".MuseumsActivity"
             android:label="@string/category_museums" />
     </application>
 

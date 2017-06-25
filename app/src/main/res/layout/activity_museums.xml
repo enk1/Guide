@@ -4,6 +4,6 @@
     android:layout_width="match_parent"
     android:id="@+id/museums_list"
     android:layout_height="match_parent"
-    tools:context="com.gmail.grzywaczewskijakub.tourguide.guide.Museums">
+    tools:context="com.gmail.grzywaczewskijakub.tourguide.guide.MuseumsActivity">
 
 </ListView>
