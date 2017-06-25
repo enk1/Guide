@@ -16,10 +16,10 @@ public class Sport extends AppCompatActivity {
         setContentView(R.layout.activity_sport);
 
         final ArrayList<Attractions> sportAttractions = new ArrayList<Attractions>();
-        sportAttractions.add(new Attractions("Znicz Pruszków Stadium", "Bohaterów Warszawy 4, 00-001 Pruszków", R.drawable.znicz_stadium));
-        sportAttractions.add(new Attractions("Kapry's Swimming Pool", "Andrzeja 3, 05-800 Pruszków", R.drawable.kapry));
-        sportAttractions.add(new Attractions("BGŻ Arena", "Andrzeja 1, 05-800 Pruszków", R.drawable.bgz_arena));
-        sportAttractions.add(new Attractions("Sports and Entertainment Hall MZOS ZNICZ", "Bohaterów Warszawy 4, 00-001 Pruszków", R.drawable.znicz_hall));
+        sportAttractions.add(new Attractions(this.getString(R.string.sport_name_stadium), this.getString(R.string.sport_address_stadium), R.drawable.znicz_stadium));
+        sportAttractions.add(new Attractions(this.getString(R.string.sport_name_kapry), this.getString(R.string.sport_address_kapry), R.drawable.kapry));
+        sportAttractions.add(new Attractions(this.getString(R.string.sport_name_arena), this.getString(R.string.sport_address_arena), R.drawable.bgz_arena));
+        sportAttractions.add(new Attractions(this.getString(R.string.sport_name_hall), this.getString(R.string.sport_address_hall), R.drawable.znicz_hall));
 
         AttractionsAdapter itemsAdapter = new AttractionsAdapter(this, sportAttractions, R.color.colorListItem);
 

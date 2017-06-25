@@ -4,4 +4,40 @@
     <string name="category_monuments">Monuments</string>
     <string name="category_sport">Sport</string>
     <string name="category_museums">Museums</string>
+
+    <string name="food_name_fabrizio">Fabrizio Italian Bar</string>
+    <string name="food_address_fabrizio">Bolesława Prusa 35b, 05-800 Pruszków</string>
+    <string name="food_name_tratoria">Tratoria Rucola</string>
+    <string name="food_address_tratoria">Prusa 35, 05-800 Pruszków</string>
+    <string name="food_name_tabla">Tabla - Indian cuisine</string>
+    <string name="food_address_tabla">Józefa Ignacego Kraszewskiego 27F-27G, 05-800 Pruszków</string>
+    <string name="food_name_corrado">Corrado Pruszków</string>
+    <string name="food_address_corrado">Aleja Wojska Polskiego 36A, 05-800 Pruszków</string>
+
+    <string name="museums_name_steelwork">Museum of the Ancient Mazovian Steelworks in Pruszków</string>
+    <string name="museums_address_steelwork">pl. Jana Pawła II 2, 05-800 Pruszków</string>
+    <string name="museums_name_dulag">Dulag Museum 121</string>
+    <string name="museums_address_dulag">ul. 3 Maja 8a, 05-800 Pruszków</string>
+    <string name="museums_name_heritage">Center for Cultural Heritage</string>
+    <string name="museums_address_heritage">Bohaterów Warszawy 4, 05-800 Pruszków</string>
+    <string name="museums_name_palace">Youth Cultural Center "Pałacyk"</string>
+    <string name="museums_address_palace">Bohaterów Warszawy 10, 05-800 Pruszków</string>
+
+    <string name="sport_name_stadium">Znicz Pruszków Stadium</string>
+    <string name="sport_address_stadium">Al. Jerozlimskie 455, 05-800 Pruszków</string>
+    <string name="sport_name_kapry">Kapry\'s Swimming Pool</string>
+    <string name="sport_address_kapry">Andrzeja 3, 05-800 Pruszków</string>
+    <string name="sport_name_arena">BGŻ Arena</string>
+    <string name="sport_address_arena">Andrzeja 1, 05-800 Pruszków</string>
+    <string name="sport_name_hall">Sports and Entertainment Hall MZOS ZNICZ</string>
+    <string name="sport_address_hall">Bohaterów Warszawy 4, 05-800 Pruszków</string>
+
+    <string name="monuments_name_palace">Sokół Palace</string>
+    <string name="monuments_address_palace">Tadeusza Kościuszki 41, 05-800 Pruszków</string>
+    <string name="monuments_name_church_bvm">Church of the Immaculate Conception of the Blessed Virgin Mary</string>
+    <string name="monuments_address_church_bvm">3 Maja 124, 05-800 Pruszków</string>
+    <string name="monuments_name_church_tol">Church of the Transfiguration of the Lord"</string>
+    <string name="monuments_address_church_tol">ul. Kręta 19, 05-800 Pruszków</string>
+    <string name="monuments_name_rsrf">Building of Rolling Stock Repair Facility</string>
+    <string name="monuments_address_rsrf">ul. Studzienna 5, 05-800 Pruszków</string>
 </resources>

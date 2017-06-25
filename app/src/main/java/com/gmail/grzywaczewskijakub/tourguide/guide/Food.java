@@ -16,10 +16,10 @@ public class Food extends AppCompatActivity {
         setContentView(R.layout.activity_food);
 
         final ArrayList<Attractions> foodAttractions = new ArrayList<Attractions>();
-        foodAttractions.add(new Attractions("Fabrizio Italian Bar", "Bolesława Prusa 35b, 00-001 Pruszków", R.drawable.fabrizio));
-        foodAttractions.add(new Attractions("Tratoria Rucola", "Prusa 35, 05-800 Pruszków", R.drawable.trattoria));
-        foodAttractions.add(new Attractions("Tabla - Indian cuisine", "Józefa Ignacego Kraszewskiego 27F-27G, 00-001 Pruszków", R.drawable.tabla));
-        foodAttractions.add(new Attractions("Corrado Pruszków", "Aleja Wojska Polskiego 36A, 00-001 Pruszków", R.drawable.corrado));
+        foodAttractions.add(new Attractions(this.getString(R.string.food_name_fabrizio), this.getString(R.string.food_address_fabrizio), R.drawable.fabrizio));
+        foodAttractions.add(new Attractions(this.getString(R.string.food_name_tratoria), this.getString(R.string.food_address_tratoria), R.drawable.trattoria));
+        foodAttractions.add(new Attractions(this.getString(R.string.food_name_tabla), this.getString(R.string.food_address_tabla), R.drawable.tabla));
+        foodAttractions.add(new Attractions(this.getString(R.string.food_name_corrado), this.getString(R.string.food_address_corrado), R.drawable.corrado));
 
         AttractionsAdapter itemsAdapter = new AttractionsAdapter(this, foodAttractions, R.color.colorListItem);
 

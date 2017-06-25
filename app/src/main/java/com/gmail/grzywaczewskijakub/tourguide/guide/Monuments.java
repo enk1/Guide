@@ -16,10 +16,10 @@ public class Monuments extends AppCompatActivity {
         setContentView(R.layout.activity_monuments);
 
         final ArrayList<Attractions> monumnetsAttractions = new ArrayList<Attractions>();
-        monumnetsAttractions.add(new Attractions("Sokół Palace", "Tadeusza Kościuszki 41, 05-800 ruszków", R.drawable.sokol_palace));
-        monumnetsAttractions.add(new Attractions("Church of the Immaculate Conception of the Blessed Virgin Mary", "3 Maja 124, 05-800 Pruszków", R.drawable.church_bvm));
-        monumnetsAttractions.add(new Attractions("Church of the Transfiguration of the Lord", "ul. Kręta, 19, 05-800 Pruszków", R.drawable.church_toc));
-        monumnetsAttractions.add(new Attractions("Building of Rolling Stock Repair Facility", "ul. Studzienna, 5, 05-800 Pruszków", R.drawable.zntk));
+        monumnetsAttractions.add(new Attractions(this.getString(R.string.monuments_name_palace), this.getString(R.string.monuments_address_palace), R.drawable.sokol_palace));
+        monumnetsAttractions.add(new Attractions(this.getString(R.string.monuments_name_church_bvm), this.getString(R.string.monuments_address_church_bvm), R.drawable.church_bvm));
+        monumnetsAttractions.add(new Attractions(this.getString(R.string.monuments_name_church_tol), this.getString(R.string.monuments_address_church_tol), R.drawable.church_toc));
+        monumnetsAttractions.add(new Attractions(this.getString(R.string.monuments_name_rsrf), this.getString(R.string.monuments_address_rsrf), R.drawable.zntk));
 
         AttractionsAdapter itemsAdapter = new AttractionsAdapter(this, monumnetsAttractions, R.color.colorListItem);
 
